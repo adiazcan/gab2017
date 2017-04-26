@@ -1,0 +1,84 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "northeurope"
+        },
+        "virtualMachineName": {
+            "value": "sqltde"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS3_v2"
+        },
+        "adminUsername": {
+            "value": "adiazcan"
+        },
+        "virtualNetworkName": {
+            "value": "starrg-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "sqltde644"
+        },
+        "networkSecurityGroupName": {
+            "value": "sqltde-nsg"
+        },
+        "adminPassword": {
+            "value": "abcd.1234.ABCD"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "starrgdiag825"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/bffbb91a-dcee-4040-962e-6efbd2ad9d00/resourceGroups/starrg/providers/Microsoft.Storage/storageAccounts/starrgdiag825"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "publicIpAddressName": {
+            "value": "sqltde-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "sqlConnectivityType": {
+            "value": "Private"
+        },
+        "sqlPortNumber": {
+            "value": 1433
+        },
+        "sqlStorageDisksCount": {
+            "value": 1
+        },
+        "sqlStorageWorkloadType": {
+            "value": "GENERAL"
+        },
+        "sqlStorageDisksConfigurationType": {
+            "value": "NEW"
+        },
+        "sqlStorageStartingDeviceId": {
+            "value": 2
+        },
+        "sqlStorageDeploymentToken": {
+            "value": 9490
+        },
+        "sqlAutopatchingDayOfWeek": {
+            "value": "Sunday"
+        },
+        "sqlAutopatchingStartHour": {
+            "value": "2"
+        },
+        "sqlAutopatchingWindowDuration": {
+            "value": "60"
+        },
+        "sqlAuthenticationLogin": {
+            "value": "adiazcan"
+        },
+        "sqlAuthenticationPassword": {
+            "value": "abcd.1234.ABCD"
+        },
+        "rServicesEnabled": {
+            "value": "false"
+        }
+    }
+}

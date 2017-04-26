@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "northeurope"
+        },
+        "virtualMachineName": {
+            "value": "VM"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS1_v2"
+        },
+        "adminUsername": {
+            "value": "adiazcan"
+        },
+        "virtualNetworkName": {
+            "value": "starrg-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "vm219"
+        },
+        "networkSecurityGroupName": {
+            "value": "VM-nsg"
+        },
+        "adminPassword": {
+            "value": "abcd.1234.ABCD"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "starrgdiag825"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/starrgdiag825"
+        },
+        "addressPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "VM-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        }
+    }
+}
